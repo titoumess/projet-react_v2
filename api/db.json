@@ -1,0 +1,126 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Concert en plein air",
+      "description": "Magnifique concert en plein air sur la place du chateau de Chambord",
+      "date": "25/02/2025",
+      "place": "Château de Chambord",
+      "price": 12,
+      "image": "chambord_concert.jpeg",
+      "organizer": "Ville de Chambord",
+      "category_id": 1,
+      "places_left": 16
+    },
+    {
+      "id": "2",
+      "title": "Silent Disco en pleine nature",
+      "description": "Dansez sous les étoiles avec votre casque audio, ambiance garantie !",
+      "date": "15/03/2025",
+      "place": "Forêt de Fontainebleau",
+      "price": 15,
+      "image": "silent_disco.jpeg",
+      "organizer": "NightVibes",
+      "category_id": 1,
+      "places_left": 75
+    },
+    {
+      "id": "4",
+      "title": "Mario Kart IRL",
+      "description": "Enfilez votre costume et foncez sur une piste réelle avec des karts customisés !",
+      "date": "22/06/2025",
+      "place": "Circuit de Magny-Cours",
+      "price": 30,
+      "image": "mario_kart_irl.jpeg",
+      "organizer": "GoKart Legends",
+      "category_id": 3,
+      "places_left": 31
+    },
+    {
+      "id": "5",
+      "title": "Soirée Loup-Garou grandeur nature",
+      "description": "Vivez une partie de Loup-Garou immersive dans un vrai village hanté.",
+      "date": "31/10/2025",
+      "place": "Village de Montsereau",
+      "price": 18,
+      "image": "loup_garou_live.jpeg",
+      "organizer": "Mystic Events",
+      "category_id": 3,
+      "places_left": 0
+    },
+    {
+      "id": "6",
+      "title": "Festival de Jazz au bord du lac",
+      "description": "Un festival de jazz avec vue imprenable sur le lac d'Annecy, dans une ambiance détendue.",
+      "date": "12/07/2025",
+      "place": "Lac d'Annecy",
+      "price": 20,
+      "image": "jazz_festival.jpeg",
+      "organizer": "Lac d'Annecy Music",
+      "category_id": 1,
+      "places_left": 135
+    },
+    {
+      "id": "7",
+      "title": "Course de relais en ville",
+      "description": "Rejoignez une course de relais urbaine à travers les rues de Paris, testez votre rapidité et votre stratégie.",
+      "date": "05/08/2025",
+      "place": "Paris",
+      "price": 10,
+      "image": "relais_ville.jpeg",
+      "organizer": "RunParis",
+      "category_id": 2,
+      "places_left": 29
+    },
+    {
+      "id": "8",
+      "title": "Tournoi de fléchettes géantes",
+      "description": "Venez participer à un tournoi de fléchettes géantes en plein air avec des amis.",
+      "date": "20/09/2025",
+      "place": "Place des Vosges, Paris",
+      "price": 12,
+      "image": "flechettes_geantes.jpeg",
+      "organizer": "DartMasters",
+      "category_id": 2,
+      "places_left": 25
+    },
+    {
+      "id": "9",
+      "title": "Escape Game à la plage",
+      "description": "Résolvez des énigmes passionnantes sur la plage de Nice et gagnez des prix incroyables !",
+      "date": "10/07/2025",
+      "place": "Plage de Nice",
+      "price": 25,
+      "image": "escape_game_plage.jpeg",
+      "organizer": "BeachEscapes",
+      "category_id": 3,
+      "places_left": 82
+    },
+    {
+      "id": "10",
+      "title": "Concours de déguisement Steampunk",
+      "description": "Participez à un concours de déguisement sur le thème Steampunk et impressionnez les juges.",
+      "date": "16/08/2025",
+      "place": "Cité des Sciences, Paris",
+      "price": 18,
+      "image": "deguisement_steampunk.jpeg",
+      "organizer": "CosplayParis",
+      "category_id": 3,
+      "places_left": 101
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Musique"
+    },
+    {
+      "id": "2",
+      "name": "Sport"
+    },
+    {
+      "id": "3",
+      "name": "Jeux"
+    }
+  ]
+}

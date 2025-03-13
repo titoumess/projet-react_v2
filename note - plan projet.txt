@@ -1,0 +1,81 @@
+
+
+Page accueil : 
+
+Header avec un menu + système de recherche
+Filtres à gauche (colonne) 
+Les évènements sous forme de carte 
+
+
+Page détail event : 
+
+Titre 
+Description
+Image
+Lieu 
+Organisation
+Catégorie 
+Prix 
+Bouton à droite pour réserver 
+On peut mettre directement le formulaire sur la page 
+
+
+
+Gestion du panier en haut à droite 
+Ouvrir une light box quand on clique dessus avec la liste des event dans le panier
+S’affiche pas en plein écran 
+
+
+
+Schéma de données (json.db) : 
+
+Event : 
+Id, titre, description, date, lieu, prix, image, organisateur, category_id, np_places_dispos
+
+Category  :
+Id, nom
+
+
+Possibilité de réserver les billets : 
+
+Utilisation du local storage : event_id + nb_places
+
+
+On peut supprimer les inscriptions déjà faites
+
+
+Composants : 
+Page accueil : (App.tsx)
+	Header (1)
+	Search (3)
+	Filter (3)
+	Events (2)
+		—>
+		      Méchanisme de props ou contexte global
+								       —>
+										Page évènement : (Detail.tsx)
+											Header
+											(Event) pas besoin de créer un composant 
+
+											Form (on isole) (FormResa.tsx)
+												—> on remplit le panier à la validation
+
+Reste à faire :
+Panier (Cart.tsx), sous forme de pop up / Lightbox 
+
+
+Components : 
+- Header.tsx
+- Events.tsx
+- App.tsx
+- Event.tsx
+- Details.tsx
+- Cart.tsx
+- Formresa.tsx
+- Search.tsx
+- Filter.tsx
+
+
+
+
+
