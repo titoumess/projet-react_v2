@@ -1,10 +1,5 @@
 # Plateforme de Réservation d'Événements
 
-## Membres de l'équipe
-- **TOULLEC Alexis**
-- **MESSAGER Titouan**
-- **PONCHAUT Léane**
-
 ## Description du projet
 Cette plateforme permet aux utilisateurs de découvrir et de réserver des événements (concerts, conférences, ateliers, etc.). Elle offre une expérience fluide et intuitive grâce à une interface moderne et responsive.
 
