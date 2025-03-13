@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocalStorage } from "../useLocalStorage";
+import { useLocalStorage } from "./useLocalStorage";
 
 export default function FormResa({ event, setEventPlaces }) {
   const [name, setName] = useState("");

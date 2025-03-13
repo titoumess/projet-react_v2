@@ -22,7 +22,7 @@
       "image": "silent_disco.jpeg",
       "organizer": "NightVibes",
       "category_id": 1,
-      "places_left": 75
+      "places_left": 74
     },
     {
       "id": "4",
@@ -70,7 +70,7 @@
       "image": "relais_ville.jpeg",
       "organizer": "RunParis",
       "category_id": 2,
-      "places_left": 29
+      "places_left": 28
     },
     {
       "id": "8",
@@ -106,7 +106,7 @@
       "image": "deguisement_steampunk.jpeg",
       "organizer": "CosplayParis",
       "category_id": 3,
-      "places_left": 101
+      "places_left": 100
     }
   ],
   "category": [
