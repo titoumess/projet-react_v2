@@ -6,7 +6,7 @@ Cette plateforme permet aux utilisateurs de découvrir et de réserver des évé
 ## Fonctionnalités implémentées
 ### Page d’accueil :
 - Affichage des événements sous forme de cartes avec image, titre, date, lieu et prix.
-- Filtres dynamiques permettant de trier les événements par date, catégorie et prix.
+- Filtres dynamiques permettant de trier les événements par date, catégorie, prix et évenements complets ou non.
 - Recherche par mot-clé.
 
 ### Page détaillée d’un événement :
@@ -38,21 +38,20 @@ Cette plateforme permet aux utilisateurs de découvrir et de réserver des évé
 
 ### Organisation du projet :
 - **Dossier `components/`** : Contient tous les composants réutilisables.
-- **Pages structurées** : Séparation des pages (`Home.tsx`, `EventDetails.tsx`, `Cart.tsx`).
+- **Pages structurées** : Séparation des pages (`Details.tsx`, `Events.tsx`).
 - **Gestion des états via hooks** (`useState`, `useEffect`, etc.).
 - **Simulation d'une API REST avec `JSON-Server`**.
 
 ## Installation et utilisation
 1. Décompresser le .zip :
    ```bash
-   cd <nom_du_projet>
+   cd Projet-REACT_V2
 2. Installer les dépendances :
    ```bash
    npm install
 3. Démarrer le serveur JSON (si utilisé) :
    ```bash
     npx json-server api/db.json --static ./public
-
 4. Lancer l’application en mode développement :
    ```bash
    npm run dev
